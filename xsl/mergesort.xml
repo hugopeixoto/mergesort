@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mergesort.xsl"?>
+<!DOCTYPE list PUBLIC "-//THEOREM//DTD XLML 1.0//EN" "mergesort.dtd">
+<list>
+	<element value="10" />
+	<element value="9" />
+	<element value="8" />
+	<element value="4" />
+	<element value="5" />
+	<element value="6" />
+	<element value="7" />
+	<element value="3" />
+	<element value="2" />
+	<element value="1" />
+</list>
+

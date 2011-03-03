@@ -1,0 +1,16 @@
+class Mergesort
+  operations
+  
+    public Merge(a : seq of int, b : seq of int) r : seq of int ==
+    return
+    if len(a)*len(b) = 0 then a ^ b
+    else
+      if a(1) < b(1) then [a(1)] ^ Merge(tl(a), b)
+      else Merge(b, a);
+
+    public Sort(lst : seq of int) r : seq of int ==
+    return
+      if len(lst) < 2 then lst
+    else Merge(Sort(lst(1, ..., len(lst) div 2)), Sort(lst(len(lst) div 2 + 1, ..., len(lst))));
+
+end Mergesort
