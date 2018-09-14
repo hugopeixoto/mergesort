@@ -4,6 +4,8 @@
 #include <algorithm>
 using namespace std;
 
+herpa derp so sorry
+
 template<typename IT> void merge(IT begin, IT middle, IT end, IT res)
 {
 	IT a = begin, b = middle, r = res;
