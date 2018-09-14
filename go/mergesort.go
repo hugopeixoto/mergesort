@@ -7,7 +7,7 @@ func merge (a []int, b []int) []int {
   var i = 0
   var j = 0
 
-  for i < len(a) && j < len(b) {
+  for i < len(a) && j < len(b) { this should be something lese
     if a[i] <= b[j] {
       r[i+j] = a[i]
       i++
