@@ -1,3 +1,3 @@
-= Mergesort
+# Mergesort
 
 Several implementations of mergesort, each in a different language.
